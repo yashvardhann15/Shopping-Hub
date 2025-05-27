@@ -11,9 +11,9 @@
         <option value="$PROJECT_DIR$/APiGatewayService/pom.xml" />
         <option value="$PROJECT_DIR$/ConfigServer/pom.xml" />
         <option value="$PROJECT_DIR$/Email-Service/pom.xml" />
-        <option value="$PROJECT_DIR$/ProductService/pom.xml" />
         <option value="$PROJECT_DIR$/ServiceDiscovery/pom.xml" />
         <option value="$PROJECT_DIR$/UserServiceJWT/pom.xml" />
+        <option value="$PROJECT_DIR$/ProductService/pom.xml" />
       </list>
     </option>
   </component>
