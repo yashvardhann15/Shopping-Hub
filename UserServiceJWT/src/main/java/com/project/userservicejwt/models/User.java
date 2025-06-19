@@ -1,13 +1,10 @@
 package com.project.userservicejwt.models;
 
-import com.project.userservicejwt.Token.Token;
-import com.project.userservicejwt.repositories.UserRepository;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
-import org.springframework.beans.factory.annotation.Autowired;
 
 import java.util.HashSet;
 import java.util.List;
@@ -27,8 +24,8 @@ public class User extends BaseModel {
     @ManyToMany
     private Set<Role> roles;
 
-    @OneToMany(mappedBy = "user")
-    private List<Token> tokens;
+//    @OneToMany(mappedBy = "user")
+//    private List<Token> tokens;
 
     public User(String name, String email, String password, List<Role> roles) {
         this.name = name;
